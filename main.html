@@ -2,8 +2,24 @@
 <html>
     <head>
         <title>Page_title</title>
+        <link rel="stylesheet" href="main.css">
+        <script src="main.js"></script>
     </head>
     <body>
         <p><img src="images/MIREA.jpg" alt="Герб РТУ МИРЭА"></p>
+        <h2>Электронная зачётная книжка студента РТУ МИРЭА</h2>
+
+
+        <button onclick="openPopup()">Войти в личный кабинет</button>
+        <div class="popup">
+            <p>Сервис временно недоступен</p>
+        </div>
+
+
+
+        <div class="popup">
+            <button class="dont" onclick="closePopup()">Закрыть</button>
+            <!-- Содержимое всплывающего окна -->
+          </div>
     </body>
 </html>
